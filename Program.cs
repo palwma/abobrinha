@@ -103,7 +103,7 @@ namespace quiz
                 Console.WriteLine("Se desejar sair do quiz, aperte: <enter>. Se quiser refazer o quiz, aperte qualquer tecla  ");
             }
 
-            if (Console.ReadKey().Key != ConsoleKey.Enter)
+            if (Console.ReadKey().Key == ConsoleKey.Enter)
             {
                 Environment.Exit(0);
             }
